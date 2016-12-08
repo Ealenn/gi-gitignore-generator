@@ -1,0 +1,34 @@
+{
+  "name": "gi-gitignore-generator",
+  "version": "0.0.1",
+  "description": "A simple CLI to generate .gitignore",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ealenn/gi-gitignore-generator.git"
+  },
+  "bin": {
+    "gi": "./app.js"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "gitignore",
+    "generator",
+    "github",
+    ".gitignore"
+  ],
+  "author": "Ealen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ealenn/gi-gitignore-generator/issues"
+  },
+  "homepage": "https://github.com/Ealenn/gi-gitignore-generator#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "request": "^2.79.0"
+  }
+}
