@@ -1,4 +1,4 @@
-# GI : Gitignore Generator [![NPM version](https://badge.fury.io/js/gi-gitignore-generator.svg)](https://npmjs.org/package/gi-gitignore-generator)
+# GI : Gitignore Generator [![npm](https://img.shields.io/npm/v/gi-gitignore-generator.svg)](https://npmjs.org/package/gi-gitignore-generator) ![Dependencies](https://david-dm.org/Ealenn/gi-gitignore-generator.svg) [![GitHub issues](https://img.shields.io/github/issues/Ealenn/gi-gitignore-generator.svg)](https://github.com/Ealenn/gi-gitignore-generator/issues)
 
 > A simple NodeJS CLI to generate .gitignore or .gitignore_global
 
@@ -7,7 +7,7 @@
 Ensure that you have installed [NodeJS](https://nodejs.org/)
 
 ```sh
-$ npm install --global gi-gitingnore-generator
+$ npm install --global gi-gitignore-generator
 ```
 
 ## Usage
