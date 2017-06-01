@@ -10,6 +10,13 @@ Ensure that you have installed [NodeJS](https://nodejs.org/)
 $ npm install --global gi-gitignore-generator
 ```
 
+MacOS **env: node\r: No such file or directory** error
+```sh
+brew install dos2unix
+sudo dos2unix /usr/local/lib/node_modules/gi-gitignore-generator/app.js
+sudo dos2unix /usr/local/lib/node_modules/gi-gitignore-generator/gitignore.js
+```
+
 ## Usage
 
 Make your .gitignore
